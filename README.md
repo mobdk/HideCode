@@ -2,7 +2,9 @@
 Hide code from dnSpy and other C# spying tools
 
 Compile with https://github.com/mobdk/compilecs (using csc.exe)
+
 Execution: Use rundll32 in same folder as BetaBeta.log. rundll32 BetaBeta.log,exec or with ordinal number. rundll32 BetaBeta.log,#1
+
 BetaBeta.log is the compiled .dll it execute MimiKatz (64 bit)
 
 Strings in C# has the format, lets say the string is "Hello", H.e.l.l.o if one use an hex editor, it contains a "dot" for every character, if this syntax 
